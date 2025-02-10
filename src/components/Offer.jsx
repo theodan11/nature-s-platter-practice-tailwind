@@ -30,7 +30,7 @@ const Offer = () => {
                     </div>
                 </div>
             </div>
-            <div className='absolute max-sm:-bottom-250 md:-bottom-[120%] md:right-[15%] lg:-bottom-[60%] lg:right-[7%] right-[8%] -bottom-210 z-11'>
+            <div className='absolute max-sm:right-2 max-sm:-bottom-250 md:-bottom-[120%] md:right-[15%] lg:-bottom-[60%] lg:right-[7%] right-[8%] -bottom-210 z-11'>
 
                 <Newsletter />
             </div>
