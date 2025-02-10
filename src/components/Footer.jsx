@@ -3,9 +3,12 @@ import Newsletter from './Newsletter'
 
 const Footer = () => {
     return (
-        <div className='relative h-[820px] lg:h-[608px] bg-[#179800] pt-[350px] lg:px-40 px-5 mt-[600px] lg:mt-[200px] max-sm:mt-200'>
-            
-            <div className='flex flex-col lg:flex-row justify-between items-start'>
+        <div className='relative h-auto bg-[#179800] pt-[350px]  items-center   max-sm:pb-10 flex flex-row justify-center'>
+            <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10'>
+
+                <Newsletter />
+            </div>
+            <div className='flex flex-col lg:flex-row justify-between items-center  w-[90%]'>
                 <div className='mb-10 lg:mb-0'>
                     <img className='w-[155px] h-[61px] ' src="logo_Vector.png" alt="" />
                     <p className='max-w-[280px] text-stone-300 mt-3'>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
@@ -32,7 +35,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     )
 }

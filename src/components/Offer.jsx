@@ -3,10 +3,10 @@ import Newsletter from './Newsletter'
 
 const Offer = () => {
     return (
-        <div className=' h-screen pt-10 md:pt-20 md:px-20 px-3 relative'>
-            <div className=''>
-                <h1 className='text-[#179800] font-semibold text-[36px]'>Arrival & Offers</h1>
-                <div className='flex  flex-col space-y-3 lg:flex-row mt-10 lg:space-x-5'>
+        <div className=' h-screen max-sm:h-auto mb-80 relative flex flex-row justify-center items-center '>
+            <div className=' flex  h-auto   max-sm:pt-50   flex-col justify-center items-center'>
+                <h1 className='text-[#179800] self-start  font-semibold text-[36px]'>Arrival & Offers</h1>
+                <div className='flex  flex-col space-y-3 lg:flex-row mt-10 justify-between space-x-[10%]'>
                     <div className='w-[344px] max-sm:h-[580px] relative sm:min-w-[540px] md:w-[780px] h-[344px] rounded-2xl bg-[#115414] flex flex-col md:flex-row md:space-x-7 md:justify-between md:items-center px-8'>
                         <div className=' mt-8 space-y-5 '>
                             <img className='md:ml-10 w-[247px] h-[76px] ' src="image_54.png" alt="" />
@@ -30,11 +30,8 @@ const Offer = () => {
                     </div>
                 </div>
             </div>
-            <div className='absolute max-sm:right-2 max-sm:-bottom-250 md:-bottom-[120%] md:right-[15%] lg:-bottom-[60%] lg:right-[7%] right-[8%] -bottom-210 z-11'>
-
-                <Newsletter />
-            </div>
-      
+            
+        
         </div>
     )
 }
