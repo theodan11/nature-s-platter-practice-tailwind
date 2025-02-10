@@ -7,7 +7,7 @@ const Footer = () => {
             
             <div className='flex flex-col lg:flex-row justify-between items-start'>
                 <div className='mb-10 lg:mb-0'>
-                    <img className='w-[155px] h-[61px] ' src="../../public/logo_Vector.png" alt="" />
+                    <img className='w-[155px] h-[61px] ' src="/logo_Vector.png" alt="" />
                     <p className='max-w-[280px] text-stone-300 mt-3'>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
                 </div>
                 <div className='mb-10'>
@@ -28,7 +28,7 @@ const Footer = () => {
                         Follow Us
                     </p>
                     <div >
-                        <img className='w-[185px] h-[28px] mt-3' src="../../public/Group 9168.png" alt="" />
+                        <img className='w-[185px] h-[28px] mt-3' src="/Group 9168.png" alt="" />
                     </div>
                 </div>
             </div>
