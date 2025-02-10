@@ -3,11 +3,11 @@ import ProductCard from './ProductCard'
 
 const PopularProducts = () => {
   return (
-    <div className='lg:h-auto h-screen pt-5 bg-linear-to-br from-gray-300 to-stone-200 flex justify-center items-center pb-5'>
-        <div className=''>
+    <div className=' max-md:h-auto  md:h-[1380px]   py-5 md:py-8 bg-linear-to-br from-gray-300 to-stone-200 flex justify-center items-center '>
+        <div className=''> 
             <h1 className='md:text-start text-[#179800] text-5xl font-semibold mb-15 text-center'>Popular Products</h1>
-            <div className='flex flex-col lg:flex-row sm:space-x-7 justify-between items-center  max-sm:m-5 max-sm:space-y-5'>
-                <div className='relative rounded-md w-full h-120 ms:h-40  md:w-[424px] md:h-[360px] bg-linear-to-br from-[#4cdf32] pt-15 pl-8'>
+            <div className='flex   flex-col lg:flex-row sm:space-x-7 justify-between items-center  max-sm:m-5 max-sm:space-y-5'>
+                <div className='relative rounded-md w-full h-120 ms:h-40  md:w-[424px] md:h-[360px] bg-linear-to-br from-[#4cdf32] pt-15 pl-8 mb-10'>
                     <h1 className='text-white font-extrabold text-4xl mb-5'>30% off</h1>
                     <p className='text-sm pr-30 text-stone-800 mb-3 z-10'>Discover a world of treats, toys, and essentials handpicked for</p>
                     <button className='py-2 bg-amber-50 rounded-md px-6 font-semibold text'>Buy Now</button>
