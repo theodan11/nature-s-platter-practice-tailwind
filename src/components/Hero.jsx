@@ -9,7 +9,7 @@ const Hero = () => {
             </div>
 
             <div className="bg-linear-to-t from-gray-300 to-gray-0 w-screen flex justify-center">
-                <img  className=" " src="/Hero_Section_1.png" alt="" />
+                <img  className=" " src="Hero_Section_1.png" alt="" />
             </div>
         </div>
     )

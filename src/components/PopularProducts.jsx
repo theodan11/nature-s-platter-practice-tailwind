@@ -11,8 +11,8 @@ const PopularProducts = () => {
                     <h1 className='text-white font-extrabold text-4xl mb-5'>30% off</h1>
                     <p className='text-sm pr-30 text-stone-800 mb-3 z-10'>Discover a world of treats, toys, and essentials handpicked for</p>
                     <button className='py-2 bg-amber-50 rounded-md px-6 font-semibold text'>Buy Now</button>
-                    <img className="absolute bottom-0 right-5" src="/banana.png" alt="" />
-                    <img className="absolute bottom-0 right-5" src="/latuse.png" alt="" />
+                    <img className="absolute bottom-0 right-5" src="banana.png" alt="" />
+                    <img className="absolute bottom-0 right-5" src="latuse.png" alt="" />
                 </div>
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-3 md:gap-3'>
                     <ProductCard image={"/product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>

@@ -5,7 +5,7 @@ const Newsletter = () => {
         <div className=' rounded-2xl p-8 lg:w-[1320px] lg:h-[457px] bg-[#EFEBE3] flex justify-center items-center lg:px-30'>
             <div  className=' w-full flex flex-col h-full lg:flex-row justify-between items-center'>
                 <div>
-                    <img className='w-[232px] h-[182px lg:w-[442px] lg:h-[348px]' src="/92 1.png" alt="" />
+                    <img className='w-[232px] h-[182px lg:w-[442px] lg:h-[348px]' src="92 1.png" alt="" />
                 </div>
 
                 <div className='flex flex-col justify-between items-center space-y-5 '>

@@ -10,7 +10,7 @@ const ProductCard = ({ image, rating, title, price }) => {
                 <div className='flex flex-col '>
                     <div className='flex space-x-2 items-center'>
 
-                        <img className="w-4 h-4"src='/star.png' alt="" />
+                        <img className="w-4 h-4"src='star.png' alt="" />
                         <p >
                             {rating}
                         </p>
