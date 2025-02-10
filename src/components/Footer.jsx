@@ -3,7 +3,7 @@ import Newsletter from './Newsletter'
 
 const Footer = () => {
     return (
-        <div className='relative h-[820px] lg:h-[608px] bg-[#179800] pt-[350px] lg:px-40 px-5 mt-[600px] lg:mt-[200px]'>
+        <div className='relative h-[820px] lg:h-[608px] bg-[#179800] pt-[350px] lg:px-40 px-5 mt-[600px] lg:mt-[200px] max-sm:mt-200'>
             
             <div className='flex flex-col lg:flex-row justify-between items-start'>
                 <div className='mb-10 lg:mb-0'>
