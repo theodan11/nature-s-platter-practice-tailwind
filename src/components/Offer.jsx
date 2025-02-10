@@ -3,7 +3,7 @@ import Newsletter from './Newsletter'
 
 const Offer = () => {
     return (
-        <div className=' h-screen max-sm:h-auto mb-80 relative flex flex-row justify-center items-center '>
+        <div className=' lg:h-auto h-screen max-sm:h-auto mb-80 relative flex flex-row justify-center items-center '>
             <div className=' flex  h-auto   max-sm:pt-50   flex-col justify-center items-center'>
                 <h1 className='text-[#179800] self-start  font-semibold text-[36px]'>Arrival & Offers</h1>
                 <div className='flex  flex-col space-y-3 lg:flex-row mt-10 justify-between space-x-[10%]'>

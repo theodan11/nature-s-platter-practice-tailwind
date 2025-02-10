@@ -3,7 +3,7 @@ import ProductCard from './ProductCard'
 
 const PopularProducts = () => {
   return (
-    <div className='lg:h-screen h-auto pt-5 bg-linear-to-br from-gray-300 to-stone-200 flex justify-center items-center pb-5'>
+    <div className='lg:h-auto h-screen pt-5 bg-linear-to-br from-gray-300 to-stone-200 flex justify-center items-center pb-5'>
         <div className=''>
             <h1 className='md:text-start text-[#179800] text-5xl font-semibold mb-15 text-center'>Popular Products</h1>
             <div className='flex flex-col lg:flex-row sm:space-x-7 justify-between items-center  max-sm:m-5 max-sm:space-y-5'>
