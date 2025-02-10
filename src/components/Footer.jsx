@@ -3,7 +3,7 @@ import Newsletter from './Newsletter'
 
 const Footer = () => {
     return (
-        <div className='relative h-auto bg-[#179800] pt-[350px]  items-center   max-sm:pb-10 flex flex-row justify-center'>
+        <div className='max-lg:mt-120 relative h-auto bg-[#179800] pt-[350px]  items-center   max-sm:pb-10 flex flex-row justify-center'>
             <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10'>
 
                 <Newsletter />

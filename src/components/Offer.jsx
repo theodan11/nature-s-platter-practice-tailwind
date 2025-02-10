@@ -5,7 +5,7 @@ const Offer = () => {
     return (
         <div className='  max-h-[1080px] h-screen max-sm:h-auto mb-80 relative flex flex-row justify-center items-center '>
             <div className=' flex  h-auto   max-sm:pt-50   flex-col justify-center items-center'>
-                <h1 className='text-[#179800] self-start   md:px-3  font-semibold text-[36px]'>Arrival & Offers</h1>
+                <h1 className='text-[#179800] self-start   max-lg:self-center md:px-3  font-semibold text-[36px]'>Arrival & Offers</h1>
                 <div className='flex md:w-[1280px] md:px-3  max-lg:items-center max-lg:flex-col max-md:w-[800px] space-y-3 space-x-4 lg:flex-row mt-10 justify-between '>
                     <div className= ' w-[344px] max-sm:h-[580px] relative sm:min-w-[540px] md:w-[780px] h-[344px] rounded-2xl bg-[#115414] flex flex-col md:flex-row md:space-x-7 md:justify-between md:items-center px-8 mx-3'>
                         <div className=' mt-8 space-y-5 '>
