@@ -15,15 +15,15 @@ const PopularProducts = () => {
                     <img className="absolute bottom-0 right-5" src="latuse.png" alt="" />
                 </div>
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-3 md:gap-3'>
-                    <ProductCard image={"/product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
-                    <ProductCard image={"/product_2.png"} title={"Tomato 1 kg"} rating={1.5} price={350}/>
-                    <ProductCard image={"/product_3.png"} title={"Potato 1 kg"} rating={3.2} price={50}/>
-                    <ProductCard image={"/product_2.png"} title={"Tomato 1 kg"} rating={4.5} price={190}/>
-                    <ProductCard image={"/product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
-                    <ProductCard image={"/product_3.png"} title={"Potato 1 kg"} rating={4.5} price={190}/>
-                    <ProductCard image={"/product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
-                    <ProductCard image={"/product_2.png"} title={"Tomato 1 kg"} rating={4.5} price={190}/>
-                    <ProductCard image={"/product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
+                    <ProductCard image={"product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
+                    <ProductCard image={"product_2.png"} title={"Tomato 1 kg"} rating={1.5} price={350}/>
+                    <ProductCard image={"product_3.png"} title={"Potato 1 kg"} rating={3.2} price={50}/>
+                    <ProductCard image={"product_2.png"} title={"Tomato 1 kg"} rating={4.5} price={190}/>
+                    <ProductCard image={"product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
+                    <ProductCard image={"product_3.png"} title={"Potato 1 kg"} rating={4.5} price={190}/>
+                    <ProductCard image={"product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
+                    <ProductCard image={"product_2.png"} title={"Tomato 1 kg"} rating={4.5} price={190}/>
+                    <ProductCard image={"product_1.png"} title={"Onion 1 kg"} rating={4.5} price={190}/>
                 </div>
             </div>
         </div>
